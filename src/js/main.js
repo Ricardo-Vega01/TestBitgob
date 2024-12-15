@@ -58,3 +58,24 @@ var swiper = new Swiper(".slide-content", {
     window.addEventListener("scroll", callbackFunc);
 })();
 
+/*Validacion y envio de formulario*/
+const formEmail = document.querySelector('form');
+formEmail.addEventListener('submit', sendInfo);
+
+const emailService = 'service_jivzuor';
+const templateService = 'template_afynmhb';
+const accountKey = 'XQE0HsDOR5mO2xYtk';
+
+function sendInfo(event) {
+    event.preventDefault();
+    emailjs.init(emailService);
+
+    emailjs.sendForm(emailService, templateService, formEmail, accountKey).then(
+        (result) => alert("Mensaje enviado con exito."), formEmail.reset())
+    .catch(
+        (error) => {
+            alert("Tuvimos un error al enviar la informacion, por favor intentelo mas tarde.");
+            formEmail.reset();
+        }
+    );
+}

@@ -5,7 +5,7 @@ Prueba de seleccion para desarrollador Jr, en Bitgob.
 Ricardo Vega
 
 # Descripcion Tecnica
-En esta prueba se realiza el desarrolo de una landing page para un politico (ficticio). Se hace uso de herramientas como html, css, y javascript, tambien se incluye el uso de la libreria swiper, con la finalidad de mejorar la apariencia de un slider.
+En esta prueba se realiza el desarrolo de una landing page para un politico (ficticio). Se hace uso de herramientas como html, css, y javascript, tambien se incluye el uso de la libreria EmailJs para el envio de informacion mediante un formulario, de la libreria Swiper con la finalidad de mejorar la apariencia de un slider y tambien se integra la cdn de iconos de Bootrstrap.
 
 # Intrucciones de despliegue en entornos locales
 
@@ -39,10 +39,11 @@ En esta prueba se realiza el desarrolo de una landing page para un politico (fic
     
     Inicie sesion en la cuenta del panel de control proporcionada por el proveedor del hosting.
 
-    Localize el directorio raiz del hosting, usualmente este es nombrado  public_html o www.
+    Localize el directorio raiz del hosting, usualmente este es nombrado public_html o www.
 
     Suba los archivos desde la interfaz del hosting, un administrador de control o una herramienta FTP.
 
 5. Prueba el sitio: Acceda al dominio desde un navegador, normalmente estas tienen terminaciones como: .net, .org, .com, .edu, etc.
     
     
+#### Se agrega evidencia del funcionamiento del envio del formulario.

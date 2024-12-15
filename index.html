@@ -150,23 +150,23 @@
             <div class="contact">
                 <div class="form">
                     <h2>Contactanos</h2><br>
-                    <!--Ingresar direccion de correo para el envio del formulario-->
-                    <form action="mailto:email@domain.com" method="post" enctype="text/plain">
+                    
+                    <form method="post" enctype="text/plain">
                         <section>
                             <label for="nombre">Nombre</label>
 
-                            <input type="text" name="customerName" id="nombre" placeholder="Escribe tu nombre" required>
+                            <input type="text" name="userName" id="nombre" placeholder="Escribe tu nombre" required>
 
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Ingresa tu correo electronico" required>
+                            <input type="email" name="emailAdd" id="email" placeholder="Ingresa tu correo electronico" required>
 
                             <label for="telephone" class="colocar_telefono">Teléfono</label>
-                            <input type="tel" name="phone" id="telephone" placeholder="Ingresa tu numero teléfonico" required>
+                            <input type="tel" name="phone" id="telephone" placeholder="Ingresa tu numero teléfonico"
+                                required>
 
                             <label for="mensaje">Mensaje</label>
                             <textarea name="message" id="mensaje" placeholder="Escribe tu mensaje">
-                        </textarea>
-
+                            </textarea>
 
                         </section>
                         <button type="submit">
@@ -180,6 +180,7 @@
             </div>
         </footer>
     </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
     <script src="/src/js/main.js"></script>
 </body>
